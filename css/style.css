@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+:root{
+	--color-hover-menu: #4caf50;
+	--color-verde: #4caf50;
+	--color-titulos: #303030;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #888;
+}
+
+header{
+	background-color: #000;
+}
+
+.navbar-nav .nav-link.btn-primary {
+	background-color: white;
+	color: black !important;
+	font-weight: 600 !important;
+	border: 0;
+	border-radius: 2px;
+	padding: 10px 20px;
+}
+
+.navbar-nav .nav-link.btn-primary:hover{
+	background-color: var(--color-hover-menu);
+	color: #fff !important;
+}
+
+#hero{
+	background-image: url("../img/bg-video.jpg");
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: white;
+}
+
+#hero h1{
+	font-size: 50px;
+	margin-bottom: 40px;
+	color: white;
+}
+
+#hero h3{
+	font-size: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+#hero h5{
+	color: white;
+}
+
+.btn-verde{
+	background-color: var(--color-verde);
+	color: white;
+	padding: 15px 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.btn-verde:hover{
+	background-color: white;
+	color: black;
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.80);
+	padding: 15% 0;
+}
+
+.section{
+	padding: 7% 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+#icons i{
+	color: var(--color-verde);
+	font-size: 36px;
+}
+
+#icons h4{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#services{
+	background-color: #fafafa;
+}
+
+.titulo{
+	font-size: 46px;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.subtitulo{
+	font-size: 20px;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 5%;
+}
+
+#services .card{
+	border: 0px;
+}
+
+#services .card-header{
+	padding: 0px;
+}
+
+#services h4{
+	font-size: 18px;
+}
+
+#services a{
+	font-size: 13px;
+}
+
+#services a:hover{
+	color: var(--color-titulos);
+	text-decoration: none;
+}
+
+#services a::before{
+	content: "\f061 ";
+	font-family: "Line Awesome Free";
+	font-weight: 600;
+}
+
