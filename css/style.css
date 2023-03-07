@@ -4,6 +4,7 @@
 	--color-hover-menu: #4caf50;
 	--color-verde: #4caf50;
 	--color-titulos: #303030;
+	--fondo-title:#f8f8f8;
 }
 body{
 	font-family: 'Open Sans', sans-serif;
@@ -136,4 +137,74 @@ h1,h2,h3,h4,h5,h6{
 	font-family: "Line Awesome Free";
 	font-weight: 600;
 }
+
+#footer-info{
+	background-color: #1F2021;
+	padding: 45px 0;
+	color: #58606b;
+	font-size: 14px;
+}
+
+#footer-copy i.lab{
+	background-color: #000;
+	color: #535353;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 35px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#footer-copy .la-facebook:hover{
+	background-color: #3b5998;
+	color: #fff;
+}
+
+#footer-copy .la-instagram:hover{
+	background-color: #dd4b39;
+	color: #fff;
+}
+
+#footer-copy .la-linkedin-in:hover{
+	background-color: #007bb5;
+	color: #fff;
+}
+
+#footer-copy .la-twitter:hover{
+	background-color: #00aced;
+	color: #fff;
+}
+
+#footer-info h4{
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+#footer-copy{
+	background-color: #191919;
+	padding: 30px 0;
+	color: #58606b;
+}
+
+#footer-info a{
+	color: #58606b;
+	text-decoration: none;
+}
+
+#footer-info a:hover{
+	color: #4274b7
+}
+
+#title{
+	background-color: var(--fondo-title);
+	padding: 40px 0;
+}
+
+#title h1{
+	font-size: 26px;
+	font-weight: 400;
+}
+
 
